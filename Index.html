@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+  <title>Assignment 1 Task 2</title>
+  <style>
+    .box
+    {
+      overflow: scroll;
+    }
+    textarea {
+      height: 50px;
+      width: 100px;
+      display:inline-block;
+      vertical-align:middle;
+      font-size: 15px;
+    }
+    table, th, td 
+    {
+    border: 1px solid black;
+    }
+    button 
+    {
+      font-size: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: Orange;" >Land Of Boxes Order Form</h1>
+  <br>
+  <h4>Name:   <input type="text" name="Name" value="Walaa Brody"></h4>
+  <h4>Email:   <input style="width: 40%;" type="text" name="Email" value="wbrody@widget-sales.com"></h4>
+  <h4>Address:      <textarea>162 Main Road
+Rondebosch 
+Cape Town</textarea></h4>
+  <h4>Postcode:   <input type="text" name="Name" value="7700"></h4>
+  <table style="width:100%">
+  <tr>
+    <th>Product</th>
+    <th>Part Number</th> 
+    <th>Quantity</th>
+    <th>Unit Price</th>
+    <th>Subtotal</th>
+  </tr>
+  <tr>
+    <td>EconoBox</td>
+    <td>LB100</td>
+    <td><input type="text" name="Quantity1" value="3"></td>
+    <td>R5</td>
+    <td><input type="text" name="Subtotal1" value="R15"></td>
+  </tr>
+  <tr>
+    <td>Standard Box</td>
+    <td>LB200</td>
+    <td><input type="text" name="Quantity2" value="4"></td>
+    <td>R5</td>
+    <td><input type="text" name="Subtotal2" value="R40"></td>
+  </tr>
+  <tr>
+    <td>Premium Box/TD></td>
+    <td>LB300</td>
+    <td><input type="text" name="Quantity3" value="1"></td>
+    <td>R15</td>
+    <td><input type="text" name="Subtotal3" value="R15"></td>
+  </tr>
+  <tr>
+    <td>Deluxe Box/TD></td>
+    <td>LB400</td>
+    <td><input type="text" name="Quantity4" value="0"></td>
+    <td>R20</td>
+    <td><input type="text" name="Subtotal4" ></td>
+  </tr>
+  <tr>
+    <td>Super Deluxe Box Box/TD></td>
+    <td>LB500</td>
+    <td><input type="text" name="Quantity5" value="1"></td>
+    <td>R30</td>
+    <td><input type="text" name="Subtotal5" value="R30"></td>
+  </tr>
+  <tr>
+    <td style="border: none;"></td>
+    <td style="border: none;"></td>
+    <td style="border: none;"></td>
+    <td style="border: none;">Total:</td>
+    <td><input type="text" name="Ttotal" value="R100"></td>
+  </tr>
+</table>
+<h4>Credit Card Details</h4>
+<p>Card Type:</p>
+<table style="border: 0px;">
+  <tr>
+    <th style="text-align: left; border: 0px; font-weight: normal;padding-right: 200px; padding-bottom: 20px;"><input type="radio" checked name="Mastercard"> Mastercard</th>
+    <th style="border: 0px; font-weight: normal;padding-bottom: 20px;">Card Number: <input type="text" name="Cardnumber" value="45645"></th>
+  </tr>
+  <tr>
+    <th style="text-align: left; border: 0px; font-weight: normal;padding-right: 200px;padding-bottom: 20px;"><input type="radio" name="Visa">Visa</th>
+    <th style="border: 0px; font-weight: normal;padding-bottom: 20px;">Expiry date:<input type="text" name="Expiry" value="03/99"></th>
+  </tr>
+  <tr>
+    <th style="text-align: left; border: 0px; font-weight: normal;padding-right: 200px;padding-bottom: 20px;"><input type="radio" name="Amex">American Express</th>
+  </tr>
+  <tr>
+  <th style="text-align: left; border: 0px; font-weight: normal;padding-right: 200px;padding-bottom: 20px;"><input type="radio" name="Diners">Diners Club</th>
+  </tr>
+</table>
+  <h4>Delivery Addres:      <textarea>162 Main Road
+Rondebosch 
+Cape Town</textarea></h4>
+<button style="margin-right: 10px;">Send order</button><button>Clear form</button>
+</body>
+</html>
